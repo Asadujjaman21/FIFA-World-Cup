@@ -1,0 +1,490 @@
+/* ------------fonts---------- */
+/*Used CSS language*/
+/*Body style*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lobster', cursive;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+/* ----------------------------------------
+top-banner section css style
+-------------------------------------------- */
+/* ------------container css style--------- */
+
+.container {
+    /* height: 550px; */
+    background-color: green;
+    margin: 100px;
+    border-radius: 20px;
+    height: 500px;
+}
+
+
+
+/* ----------top-banner css style------------- */
+
+.top-banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 350px;
+    padding: 30px;
+}
+
+
+/* ------------banners css style------------- */
+.banners {
+    color: white;
+    padding: 50px;
+    text-align: center;
+
+}
+
+/* ----------text all css style-------------- */
+.text-one {
+    font-size: 42px;
+}
+
+.paragraph {
+    font-size: 18px;
+}
+
+.para {
+    font-size: 17px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+/* -----------link-btn css style----------- */
+.link-btn {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background: yellow;
+    font-size: 22px;
+    color: rgb(3, 1, 1);
+    border: 2px solid white;
+}
+
+.link-btn:hover {
+    background: rgb(245, 6, 6);
+    padding: 11px;
+    border-radius: 20px;
+    transition: 2s ease-out;
+    color: white;
+}
+
+/* ----------banner-img css style------------ */
+.banner img {
+    height: auto;
+    width: 75%;
+    padding-top: 35px;
+    
+}
+
+
+/* ------------------------------------------
+blogs section css style
+---------------------------------------------- */
+/* -----------main-container css style------------ */
+.main-container {
+    background-color: white;
+    margin: 100px;
+    border-radius: 10px;
+}
+
+/* ------------containers css style-------------- */
+.containers {
+    display: flex;
+    column-gap: 30px;
+}
+
+/* Upcomming, All group, Blog section css style */
+/* -----------links css style----------- */
+.links {
+    display: block;
+    width: 25%;
+    height: 340px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* ------------link css style------------ */
+.link {
+    padding: 20px;
+    margin: 30px;
+    background: green;
+    border-radius: 10px;
+}
+
+/* -------------link a css style------------ */
+.link a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* -----------link hover css style------------ */
+.link:hover {
+    background: rgb(255, 0, 0);
+    color: white;
+}
+
+/* -----------blogs images css style------------- */
+.image-width {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+/* -----------------blogs css style------------------ */
+.blogs {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+
+/* ----------------blog css style----------------- */
+.blog {
+    margin-bottom: 30px;
+    padding: 0px 10px 30px 10px;
+    border: 1px solid rgb(65, 63, 63);
+    box-shadow: 0px 2px 2px;
+    border-radius: 5px;
+
+}
+
+/* --------------button css style--------------- */
+button {
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgb(253, 59, 10);
+    color: white;
+}
+
+/* -------------text all css style----------------- */
+.text-two {
+    margin: 10px 0px 15px;
+    font-size: 24px;
+    color: black;
+}
+
+.text-two {
+    font-size: 16px;
+}
+
+.text-tree {
+    margin-right: 50px;
+}
+
+/* ------------footer-area all section css style------------- */
+/* ---------footer-area css style----------------- */
+.footer-area {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+/* --------------h3 tag css style-------------- */
+h3 {
+    font-size: 45px;
+    padding: 60px 0px 30px;
+}
+
+/* ------------footer-link css style------------ */
+.footer-link {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: auto;
+    padding: 20px;
+
+}
+
+/* --------------text-four a css style----------- */
+.text-four a {
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+}
+
+/* -------------feild css style----------- */
+.feild {
+    padding: 0px 30px 60px;
+    font-size: 30px;
+}
+
+/* view all button css style */
+.views {
+    text-align: center;
+    display: none;
+}
+
+.view {
+    padding: 10px;
+}
+
+.view-btn {
+    background: red;
+    padding: 15px;
+    color: white;
+}
+
+
+
+
+/* ------------------------------------------
+Upcomming Match page css style
+-------------------------------------------- */
+/* ---------------flags css style-------------- */
+.flags {
+    display: flex;
+    align-items: center;
+}
+
+/* ------------flag css style------------- */
+.flag {
+    width: 50%;
+    padding: 10px;
+}
+
+/* ------------h4 css style------------ */
+h4 {
+    color: black;
+}
+
+/* --------------text-five css style----------- */
+.text-five {
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+}
+
+/* ----------------------------------
+Responsive website css styles
+-------------------------------------- */
+/* ------------mobile screen website--------------- */
+
+@media only screen and (max-width:570px) {
+    body {
+        background-color: pink;
+        margin: 0;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .text-one {
+        font-size: 30px;
+    }
+
+    .link-btn {
+        padding: 5px;
+        border: none;
+        font-size: 16px;
+    }
+
+    .top-banner {
+        width: 70%;
+    }
+
+    .top-banner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+
+    .banner img {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    /* links css style */
+    .containers {
+        display: block;
+        background-color: pink;
+    }
+
+    .main-container {
+        margin: 30px;
+    }
+
+    .links {
+        display: block;
+        width: 100%;
+        border-radius: 10px;
+        margin: 10px;
+        text-align: center;
+        background-color: pink;
+    }
+
+    .link {
+        padding: 10px;
+        margin: 20px;
+        background: white;
+        border-radius: 10px;
+    }
+
+    .link a {
+        text-decoration: none;
+        color: red;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    /* -----------------------------
+blogs css style---------------  */
+    .blogs {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        margin-bottom: 30px;
+        background-color: pink;
+    }
+
+    .blog {
+        margin-bottom: 30px;
+        padding: 0px 10px 30px 10px;
+        box-shadow: 0px 2px 2px;
+        border-radius: 5px;
+        background-color: white;
+    }
+
+    button {
+        padding: 5px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .text-two {
+        margin: 10px 0px 15px;
+        font-size: 20px;
+        color: black;
+    }
+
+    .text-tree {
+        margin-right: 50px;
+    }
+
+    /* footer-area css style */
+    .footer-area {
+        width: 100%;
+        display: block;
+    }
+
+    .footer-link {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        flex-direction: row;
+        row-gap: 20px;
+        font-size: 13px;
+    }
+
+    .feild {
+        color: white;
+        margin-bottom: 30px;
+        padding: 10px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+}
+
+/* ----------------------------
+tablet device responsive website 
+--------------------------------*/
+@media only screen and (min-width:571px) and (max-width:768px) {
+    body {
+        background-color: gray;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0px;
+        padding: 0;
+    }
+
+    .top-banner {
+        width: 90%;
+    }
+
+    .top-banner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+
+    /* links css style */
+    .containers {
+        display: block;
+        background-color: gray;
+    }
+
+    .main-container {
+        background-color: gray;
+        margin: 30px;
+        padding: 0px;
+    }
+
+    .links {
+        display: block;
+        width: 100%;
+        border-radius: 10px;
+        margin: 10px;
+        text-align: center;
+        background-color: gray;
+    }
+
+    /* -----------------------------blogs css style---------------  */
+    .blogs {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: column;
+        margin-bottom: 30px;
+        background-color: gray;
+    }
+
+    .blog {
+        background-color: white;
+    }
+
+    /* view all button */
+    .views {
+        display: flex;
+        padding: 0px;
+        margin: 0px;
+        background-color: gray;
+        border: none;
+    }
+
+    .view {
+        border: none;
+    }
+
+    .footer-area {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
